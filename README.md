@@ -19,11 +19,24 @@ The script performs two primary functions:
 * **Directory Traversal:** Processes all files in the target directory (non-recursive).
 * **Optional Organization:** Can sort files into folders named after their file extension (e.g., all `.pdf` files go into a `pdf` folder).
 
-***
+---
+
+## 🐍 Modules Used (Standard Library)
+
+This project relies exclusively on the **Python Standard Library**, meaning no external installation is necessary. 
+
+| Module | Purpose in this Script |
+| :--- | :--- |
+| **`os`** | Core module for interacting with the operating system, used for tasks like **getting file paths** (`os.path.join`), **checking if a path is a directory** (`os.path.isdir`), and **renaming files** (`os.rename`). |
+| **`shutil`** | Provides high-level file operations, used specifically for **moving files** between directories (`shutil.move`) during the organization phase. |
+| **`argparse`** | Used for **parsing command-line arguments**, allowing the user to specify the target directory and use flags like `--organize`. |
+| **`re`** | The **regular expression** module, used within the standardization logic to efficiently **find and replace** various special characters and spaces with a single underscore. |
+
+---
 
 ## 🚀 Installation
 
-This script uses only Python's standard library modules, such as `os` and `sys`. No external packages are required.
+This script uses only Python's standard library modules.
 
 1.  **Ensure Python is installed:** You must have **Python 3** installed on your system.
     ```bash
@@ -31,7 +44,7 @@ This script uses only Python's standard library modules, such as `os` and `sys`.
     ```
 2.  **Save the script:** Save the Python code as a file named `file_organizer.py` in a convenient location.
 
-***
+---
 
 ## 💻 Usage
 
