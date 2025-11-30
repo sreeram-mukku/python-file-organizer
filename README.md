@@ -43,11 +43,3 @@ Use this command to **only rename** the files for consistency.
 
 ```bash
 python3 file_organizer.py <target_directory>
-
-
-
-
-
-
-
-
