@@ -6,6 +6,12 @@ The script performs two primary functions:
 1.  **Standardizes File Names:** Converts complex file names into a clean, lowercased, and underscore-separated format.
 2.  **Organizes Files:** Optionally moves files into subdirectories based on their file extension.
 
+| Original File Name | Renamed File Name |
+| :--- | :--- |
+| `9.8 Iterators.pdf` | `9_8_iterators.pdf` |
+| `My Awesome Project - V2.0.zip` | `my_awesome_project_v2_0.zip` |
+| `Document (Final) [2024].docx` | `document_final_2024.docx` |
+
 ## ✨ Features
 
 * **Clean Naming:** Replaces spaces, hyphens, and most punctuation with **underscores (`_`)**.
@@ -38,9 +44,10 @@ Use this command to **only rename** the files for consistency.
 ```bash
 python3 file_organizer.py <target_directory>
 
-<img width="1417" height="1079" alt="Screenshot from 2025-12-01 01-09-57" src="https://github.com/user-attachments/assets/be35f124-4b42-4580-aed2-22bb6c05f8cd" />
 
-<img width="1437" height="1334" alt="Screenshot from 2025-12-01 01-10-32" src="https://github.com/user-attachments/assets/6949b268-bd3d-438d-87a4-5fcdf5ef370f" />
+
+
+
 
 
 
