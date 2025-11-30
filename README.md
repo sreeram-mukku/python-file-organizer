@@ -56,3 +56,10 @@ Use this command to **only rename** the files for consistency.
 
 ```bash
 python3 file_organizer.py <target_directory>
+```
+### 2. Standardize and Organize (Moving)
+Use the optional --organize flag to not only rename but also **move** the files into subdirectories created within the target directory, based on their extension.
+
+```bash
+python3 file_organizer.py <target_directory> --organize
+```
